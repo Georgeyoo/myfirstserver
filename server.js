@@ -2,9 +2,10 @@
 var http = require("http");
 var PORT = 7000;
 
-var memes = ["My CoDe WoRkS BuT I dOn'T kNoW wHy", "You know nothing, John Snow", "Your friendly neighborhood Spooderman"];
 
 function handleRequest(request, response) {
+
+	var memes = ["My CoDe WoRkS BuT I dOn'T kNoW wHy", "You know nothing, John Snow", "Your friendly neighborhood Spooderman"];
 
 	// Math.floor((Math.random() * 3) + 0);
 
